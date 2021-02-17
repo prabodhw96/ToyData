@@ -45,7 +45,7 @@ def write():
 		address = data.iloc[i]["Address"]
 		village = data.iloc[i]["Village"]
 		directions = "https://www.google.com/maps/dir//"+str(data.iloc[i]["latitude"])+","+str(data.iloc[i]["longitude"])
-		photo = "https://raw.githubusercontent.com/prabodhw96/Rohit/master/"+data.iloc[i]["Photo"]
+		photo = "https://raw.githubusercontent.com/prabodhw96/ToyData/master/"+data.iloc[i]["Photo"]
 
 		find_html = folium.Html(f"""<p style="text-align: center;">{name}</p>
 									<p style="text-align: center;">{address}</p>

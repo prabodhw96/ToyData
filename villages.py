@@ -13,4 +13,4 @@ def load_data():
 def write():
 	st.title("Villages of Gurez Sector")
 	data = load_data()
-	st.map(data, zoom=12)
+	st.map(data)
